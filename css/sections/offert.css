@@ -1,0 +1,36 @@
+.offert {
+  display: flex;
+}
+
+.offert-left-container {
+  padding: 124px 99px 103px 0;
+}
+
+.offer-box {
+  display: flex;
+  align-items: start;
+}
+
+.offer-box:nth-child(1),
+.offer-box:nth-child(2) {
+  border-bottom: 1px solid #3C2A18; 
+  padding-bottom: 50px;
+}
+
+.offer-box:nth-child(2),
+.offer-box:nth-child(3) {
+  padding-top: 65px;
+}
+
+.offer-text-box h2 {
+  font-size: 24px;
+  margin-bottom: 33px;
+}
+
+.offer-text-box {
+  margin-right: 123px;
+}
+
+.offert-right-container img {
+  margin-right: -159px;
+}

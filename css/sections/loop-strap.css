@@ -1,0 +1,8 @@
+.loop-strap {
+  margin:0;
+  display: flex;
+  gap: 36px;
+  border-bottom: 1px solid #3C2A18;
+  border-top: 1px solid #3C2A18;
+  padding: 25px 0;
+}
