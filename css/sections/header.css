@@ -1,0 +1,35 @@
+header {
+  display: flex;
+  align-items: center;
+  padding: 8px 0;
+  width: 100%;
+}
+
+header nav ul li a {
+  font-size: 16px;
+  text-decoration: none;
+}
+
+header nav ul li {
+  list-style: none;
+}
+
+.navbar-cta-button {
+  background: transparent;
+  border: 1px #3C2A18 solid;
+  padding: 10px 22px;
+  font-size: 16px;
+}
+
+header nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}

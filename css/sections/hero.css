@@ -1,0 +1,101 @@
+.hero {
+  display: flex;
+}
+
+.hero-left {
+  width: 45.3%;
+}
+
+.hero-left h1 {
+  font-family: 'Space Grotesk', sans-serif;
+  letter-spacing: 10%;
+  line-height: 130%;
+  font-size: 55px;
+  font-weight: 300;
+  margin-bottom: 48px;
+  margin-top: 124px;
+}
+
+.hero-left img {
+  margin-left: -159px;
+}
+
+.hero-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 16px;
+  width: 54.7%;
+}
+
+.hero-right-image {
+  margin-right: -10px;
+}
+
+.hero-right-main-text {
+  margin-bottom: 31px;
+  margin-top: 40px;
+  padding-right: 77px;
+}
+
+.hero-right button {
+  background: transparent;
+  font-size: 16px;
+  padding: 10px 22px;
+  border: 1px #3C2A18 solid;
+}
+
+.hero-right button img {
+  margin-left: 10px;
+}
+
+.hero-right-row2 h2 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 35px;
+  font-weight: 300;
+  margin-bottom: 46px;
+  margin-left: 121px;
+}
+
+.testimontial-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.testimonial:nth-child(2) {
+  margin-top: 28px;
+  margin-bottom: 39px;
+}
+
+.quote-icon {
+  margin-bottom: 28px;
+}
+
+.testimonial p {
+  max-width: 235px;
+}
+
+.hero-left h1 span {
+  color: #FFFAF4;
+  position: relative;
+}
+
+.hero-left h1 span::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: -8px;
+  z-index: -1;
+  width: 150px;
+	height: 0;
+	border-left: 0px solid transparent;
+	border-right: 40px solid transparent;
+	border-bottom: 72px solid #BEA285;
+	margin: 30px auto 0;
+}
+
+.elipse-hero-img {
+  position: absolute;
+  top: 266px;
+  right: 0;
+}
