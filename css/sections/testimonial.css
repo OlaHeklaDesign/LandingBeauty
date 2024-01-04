@@ -1,0 +1,41 @@
+.testimonial-section {
+  width: 1122px;
+  margin: 0 auto;
+  padding: 102px 0;
+}
+
+.testimonial-section h2 {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.paragraf-testimonial {
+  text-align: center;
+  padding: 0 160px;
+}
+
+.container-testimonial {
+  border-bottom: 1px #3C2A18 solid;
+  border-top: 1px #3C2A18 solid;
+}
+
+.testimonials-box {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 173px;
+  grid-row-gap: 86px;
+}
+
+.testimonial-icon {
+  margin-bottom: 27px;
+}
+
+.testimonial-box p {
+  margin-bottom: 23px;
+}
+
+.testimonial-author {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 500;
+}
