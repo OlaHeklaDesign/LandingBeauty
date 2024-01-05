@@ -1,7 +1,6 @@
-.container-header-hero {
+.container__header-hero {
   position: relative;
 }
-
 
 header::before {
   content: "";
@@ -31,19 +30,19 @@ header::after {
 
 header {
   display: flex;
+  position: relative;
   align-items: center;
   padding: 8px 0;
-  width: 100%;
   max-width: 1122px;
   margin: 0 auto;
 }
 
-header nav ul li a {
+a {
   font-size: 16px;
   text-decoration: none;
 }
 
-header nav ul li {
+li {
   list-style: none;
 }
 
@@ -61,8 +60,48 @@ header nav {
   justify-content: space-between;
 }
 
-.header-menu {
+.desktop-nav {
   display: flex;
   align-items: center;
   gap: 20px;
+}
+
+.mobile-nav {
+  display: none;
+}
+
+.mobile-nav nav {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  width: fit-content;
+  background: #F3E9E0;
+  padding: 20px 20px;
+}
+
+.mobile-nav li {
+  margin-bottom: 14px;
+}
+
+.mobile-nav li:last-child {
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 1200px)  {
+  header {
+    padding: 8px 20px;
+  }
+}
+
+@media only screen and (max-width: 770px)  {
+  .mobile-nav {
+    display: block;
+    cursor: pointer;
+  }
+  .mobile-nav nav {
+    display: none;
+  }
+  .desktop-nav {
+    display: none;
+  }
 }

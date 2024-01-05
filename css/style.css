@@ -25,12 +25,13 @@ body {
   background: #F3E9E1; 
 }
 
-.container {
+.main_container {
   max-width: 1440px;
   margin: 0 auto;
   overflow: hidden;
   position: relative;
 }
+
 
 h2 {
   font-family: 'Space Grotesk', sans-serif;
