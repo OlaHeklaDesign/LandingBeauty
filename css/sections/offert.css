@@ -1,5 +1,35 @@
 .offert {
   display: flex;
+  width: 1122px;
+  margin: 0 auto;
+}
+
+.offert-container {
+  position: relative;
+  background: white;
+}
+
+.offert-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #B1715F;
+  opacity: 0.2;
+}
+
+.offert-container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: .1;
+  z-index: 1;
+  background-image: url("../../assets/texture_background.png");
 }
 
 .offert-left-container {

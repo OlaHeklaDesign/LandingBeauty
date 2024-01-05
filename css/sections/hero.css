@@ -1,5 +1,7 @@
 .hero {
   display: flex;
+  max-width: 1122px;
+  margin: 0 auto;
 }
 
 .hero-left {
