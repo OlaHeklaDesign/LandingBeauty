@@ -3,6 +3,12 @@
   background: #fff;
 }
 
+.faq-elipse-img {
+  position: absolute;
+  bottom: -63px;
+  left: 0;
+}
+
 .faq-container::before {
   content: "";
   position: absolute;
