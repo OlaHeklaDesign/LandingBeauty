@@ -34,7 +34,7 @@
 
 .faq {
   display: flex;
-  width: 1122px;
+  max-width: 1122px;
   margin: 0 auto;
   padding: 105px 0; 
 }
@@ -63,7 +63,13 @@
 .question {
   display: flex;
   justify-content: space-between;
+  align-items: start;
   margin-bottom: 14px;
+}
+
+.question img {
+  margin-top: 10px;
+  margin-left: 20px;
 }
 
 .question p {
@@ -80,4 +86,37 @@
 .faq-box {
 border-bottom: 0.5px solid #3C2A18;
 margin-bottom: 44px;
+}
+
+@media only screen and (max-width: 1200px)  {
+  .faq {
+    padding: 105px 20px;
+  }
+}
+
+@media only screen and (max-width: 1200px)  {
+  .faq-left {
+    padding-right: 60px;
+  }
+}
+
+@media only screen and (max-width: 684px)  {
+  .faq {
+    flex-direction: column;
+    padding: 50px 20px;
+  }
+
+  .faq-left {
+    width: 100%;
+    margin-bottom: 80px;
+    margin-right: 20px;
+  }
+
+  .faq-right {
+    width: 90vw;
+  }
+
+  .faq-elipse-img {
+    display: none;
+  }
 }

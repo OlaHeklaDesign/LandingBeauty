@@ -31,7 +31,7 @@
 
 
 .testimonial-section {
-  width: 1122px;
+  max-width: 1122px;
   margin: 0 auto;
   padding: 102px 0;
 }
@@ -71,4 +71,42 @@
 .testimonial-author {
   font-family: 'Space Grotesk', sans-serif;
   font-weight: 500;
+}
+
+@media only screen and (max-width: 1200px)  {
+  .testimonial-section {
+    padding: 102px 20px;
+  }
+}
+
+@media only screen and (max-width: 1060px)  {
+  .testimonials-box {
+    grid-column-gap: 120px;
+    grid-row-gap: 50px;
+  }
+}
+
+@media only screen and (max-width: 887px)  {
+  .testimonials-box {
+    grid-column-gap: 80px;
+    grid-row-gap: 20px;
+  }
+}
+
+@media only screen and (max-width: 887px)  {
+  .testimonials-box {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 700px)  {
+  .paragraf-testimonial {
+    padding: 0 20px;
+  }
+}
+
+@media only screen and (max-width: 600px)  {
+  .testimonials-box {
+    grid-template-columns: 1fr;
+  }
 }
