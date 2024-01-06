@@ -1,12 +1,12 @@
 .loop-strap {
   position: relative;
   margin:0;
-  display: flex;
-  gap: 36px;
   border-bottom: 1px solid #3C2A18;
   border-top: 1px solid #3C2A18;
   padding: 25px 0;
   background: #F3E9E1; 
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .loop-strap::before {
@@ -20,3 +20,23 @@
   z-index: 2;
   background-image: url("../../assets/texture_background.png");
 }
+
+.loop-text {
+  display: inline-block;
+  animation: 10s moveStrap linear infinite;
+}
+
+.loop-text p {
+  display: inline-block
+}
+
+.loop-text img {
+  margin: 0 17px;
+}
+
+@keyframes moveStrap {
+  to {
+    transform: translateX(-100%);
+  }
+}
+
