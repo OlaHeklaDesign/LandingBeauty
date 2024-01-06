@@ -2,7 +2,7 @@
   position: relative;
 }
 
-header::before {
+.container__header-hero::before {
   content: "";
   position: absolute;
   top: 0;
@@ -14,7 +14,7 @@ header::before {
   background-image: url("../../assets/texture_background.png");
 }
 
-header::after {
+.container__header-hero::after {
   content: "";
   position: absolute;
   top: 50%;
@@ -30,7 +30,6 @@ header::after {
 
 header {
   display: flex;
-  position: relative;
   align-items: center;
   padding: 8px 0;
   max-width: 1122px;
