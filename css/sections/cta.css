@@ -40,7 +40,7 @@
 }
 
 .cta {
-  width: 1122px;
+  max-width: 1122px;
   margin: 0 auto;
   padding: 90px 0;
 }
@@ -62,4 +62,22 @@
   font-size: 16px;
   padding: 10px 22px;
   border: 1px #3C2A18 solid;
+}
+
+@media only screen and (max-width: 1200px)  {
+  .cta {
+    padding: 90px 20px;
+  }
+}
+
+@media only screen and (max-width: 935px)  {
+  .cta p {
+    padding: 0 100px;
+  }
+}
+
+@media only screen and (max-width: 435px)  {
+  .cta p {
+    padding: 0 20px;
+  }
 }
