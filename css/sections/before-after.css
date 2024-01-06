@@ -17,7 +17,7 @@
 }
 
 .before-after {
-  width: 1122px;
+  max-width: 1122px;
   margin: 0 auto;
   padding: 84px 0px 106px 0;
 }
@@ -44,4 +44,78 @@
 .before-after-text-box p {
   width: 368px;
   margin-right: 55px;
+}
+
+.before-after-examples-box div {
+  max-width: 100%;
+}
+
+.before-after-examples-box div img {
+  max-width: 100%;
+}
+
+.before-after-examples-box {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.before-after-examples-box div {
+  border: 1px solid #3C2A18;
+}
+
+.before-after-examples-box div div {
+  padding: 26px 23px 26px 23px;
+  border: none;
+}
+
+.before-after-examples-box div div p:nth-child(1) {
+  margin-bottom: 11px;
+}
+
+@media only screen and (max-width: 1200px)  {
+  .before-after {
+    padding: 84px 20px 106px 20px;
+  }
+}
+
+@media only screen and (max-width: 1035px)  {
+  .before-after-examples-box {
+    gap: 10px;
+  }
+
+  .before-after-text-box {
+    flex-direction: column;
+  }
+
+  .before-after-text-box div {
+    flex-direction: column;
+  }
+
+  .before-after-text-box h2 {
+    margin-bottom: 20px;
+  }
+
+  .before-after-text-box div p {
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 577px)  {
+  .before-after-examples-box {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .before-after-examples-box div {
+    max-width: auto;
+  }
+
+  .before-after {
+    padding: 44px 20px 46px 20px;
+  }
+
+  .before-after-text-box div p {
+    width: 100%;
+  }
 }

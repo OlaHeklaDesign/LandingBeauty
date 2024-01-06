@@ -149,6 +149,14 @@
   .hero-right-row1 button {
     margin-left: 20px;
   }
+
+  .testimontial-box {
+    justify-content: start;
+  }
+
+  .testimonial:nth-child(1) {
+    margin-right: 100px;
+  }
 }
 
 @media only screen and (max-width: 595px)  {
