@@ -53,6 +53,11 @@
   border: 1px #3C2A18 solid;
 }
 
+.faq-left button:hover {
+  background: #3C2A18;
+  color: #FFFAF4;
+}
+
 .faq-left p {
   margin-top: 23px;
   margin-bottom: 26px; 

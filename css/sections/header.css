@@ -52,6 +52,15 @@ li {
   font-size: 16px;
 }
 
+.navbar-cta-button:hover {
+  background: #3C2A18;
+  color: #FFFAF4;
+}
+
+.logo {
+  cursor: pointer;
+}
+
 header nav {
   width: 100%;
   display: flex;
