@@ -15,3 +15,15 @@ for (let i = 0; i < questions.length; i++) {
     }
   });
 }
+
+
+const mobileMenuIcon = document.querySelector('.mobile-nav-icon');
+const mobileMenu = document.querySelector('.mobile-menu');
+
+mobileMenuIcon.addEventListener('click', () => {
+  if(mobileMenu.style.display === 'flex') {
+    mobileMenu.style.display = 'none';
+  } else {
+    mobileMenu.style.display = 'flex';
+  }
+})

@@ -85,6 +85,7 @@ header nav {
   width: fit-content;
   background: #F3E9E0;
   padding: 20px 20px;
+  z-index: 10;
 }
 
 .mobile-nav li {
@@ -93,6 +94,10 @@ header nav {
 
 .mobile-nav li:last-child {
   margin-bottom: 0;
+}
+
+.mobile-menu {
+  display: none;
 }
 
 @media only screen and (max-width: 1200px)  {
@@ -105,9 +110,6 @@ header nav {
   .mobile-nav {
     display: block;
     cursor: pointer;
-  }
-  .mobile-nav nav {
-    display: none;
   }
   .desktop-nav {
     display: none;
